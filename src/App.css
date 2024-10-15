@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,800&display=swap');
+
+:root {
+  font-size: 15px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+
+}
+
+@media only screen and (min-device-width: 1025px) {
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+  /* MY PC SCREEN */
+  .navbar1 {
+    /* /* margin-right: -9px; */
+    margin-left: -9px;
+    margin-top: -9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: -110px;
+    background-color: #e74c3c;
+    color: white;
+    position: fixed;
+    z-index: 3;
+
+    .nav-item {
+      font-family: "Raleway", sans-serif;
+      font-size: 20px;
+      margin-top: 20px;
+      padding-left: 50px;
+    }
+
+    .nav1 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+    }
+
+    .card {
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: #a6c8ef;
+    }
+  }
+}
+
+
+@media only screen and (min-device-width: 280px)and (max-width:710px) {
+  /* 4k screen resolution */
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+  /* MY PC SCREEN */
+  .navbar1 {
+    /* /* margin-right: -9px; */
+    margin-left: -9px;
+    margin-top: -9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: -110px;
+    background-color: #e74c3c;
+    color: white;
+
+    .nav-item {
+      font-family: "Raleway", sans-serif;
+      font-size: 20px;
+      margin-top: 20px;
+      padding-left: 50px;
+    }
+
+    .nav1 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+    }
+
+    .card {
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: #a6c8ef;
+    }
+  }
+  .homescreen{
+    margin-top: 500px;
+  
+    img {
+      margin-top: -20px;
+      margin-left: -20px;
+      z-index: 2;
+    }
+    h3{
+      font-size:20px
+    }
+    .part2{
+      background-color: #bdc3c7;
+    }
+  
+  }
+  .text{
+    font-size: 801px;
+  }
+}
+
+        
